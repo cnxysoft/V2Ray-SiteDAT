@@ -1,6 +1,6 @@
 #!/bin/bash
 
-git remote add upstream "https://github.com/cnxysoft/V2Ray-SiteDAT.git"
+git remote add upstream "https://${geo_token}@github.com/cnxysoft/V2Ray-SiteDAT.git"
 
 #mkdir -p z2n
 #cd z2n
