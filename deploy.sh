@@ -15,8 +15,8 @@ rm -rf ./sr_direct_banad.conf
 #wget https://raw.githubusercontent.com/z2n/Shadowrocket-ADBlock-Rules/master/factory/resultant/ad.list
 #cat ad.list > ad
 
-wget https://raw.githubusercontent.com/z2n/Shadowrocket-ADBlock-Rules/master/factory/resultant/gfw.list
-cat gfw.list > gfw
+#wget https://raw.githubusercontent.com/z2n/Shadowrocket-ADBlock-Rules/master/factory/resultant/gfw.list
+#cat gfw.list > gfw
 
 rm -rf *.list
 
