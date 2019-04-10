@@ -14,4 +14,4 @@ https://github.com/onplus/v2ray-SiteDAT 提供了转换成的域名文件的工�
 https://github.com/h2y/Shadowrocket-ADBlock-Rules 提供了域名。
 
 ## 状态：
-https://travis-ci.org/cnxysoft/V2Ray-SiteDAT.svg?branch=master
+[![Build Status](https://travis-ci.org/cnxysoft/V2Ray-SiteDAT.svg?branch=master)](https://travis-ci.org/cnxysoft/V2Ray-SiteDAT)
