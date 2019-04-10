@@ -20,7 +20,7 @@ git remote add upstream "https://${geo_token}@github.com/cnxysoft/V2Ray-SiteDAT.
 
 #rm -rf *.list
 
-cd ..
+#cd ..
 mkdir -p geofiles
 ls -al
 chmod +x ./v2sitedat
