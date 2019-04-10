@@ -1,15 +1,15 @@
 #!/bin/bash
 
-git remote add upstream "https://${geo_token}@github.com/ToutyRater/V2Ray-SiteDAT.git"
+git remote add upstream "https://${geo_token}@github.com/cnxysoft/V2Ray-SiteDAT.git"
 
-mkdir -p z2n
-cd z2n
-rm -rf ./*
+#mkdir -p z2n
+#cd z2n
+#rm -rf ./*
 
-wget https://raw.githubusercontent.com/z2n/Shadowrocket-ADBlock-Rules/master/sr_direct_banad.conf
-cat sr_direct_banad.conf | grep Reject|grep DOMAIN-SUFFIX|awk -F, '{print $2}' > ad
+#wget https://raw.githubusercontent.com/z2n/Shadowrocket-ADBlock-Rules/master/sr_direct_banad.conf
+#cat sr_direct_banad.conf | grep Reject|grep DOMAIN-SUFFIX|awk -F, '{print $2}' > ad
 #cat sr_direct_banad.conf | grep Reject|grep CIDR|awk -F, '{print $2}' > ad_ip
-rm -rf ./sr_direct_banad.conf
+#rm -rf ./sr_direct_banad.conf
 #ls -al
 
 #wget https://raw.githubusercontent.com/z2n/Shadowrocket-ADBlock-Rules/master/factory/resultant/ad.list
@@ -18,7 +18,7 @@ rm -rf ./sr_direct_banad.conf
 #wget https://raw.githubusercontent.com/z2n/Shadowrocket-ADBlock-Rules/master/factory/resultant/gfw.list
 #cat gfw.list > gfw
 
-rm -rf *.list
+#rm -rf *.list
 
 cd ..
 mkdir -p geofiles
